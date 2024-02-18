@@ -2027,6 +2027,7 @@ var GL_Main = (function () {
               });
       }),
       (t.prototype.mClick = function () {
+         return;
         _glMain.changeURL(this._op._op.path);
       }),
       (t.prototype.mOver = function () {
