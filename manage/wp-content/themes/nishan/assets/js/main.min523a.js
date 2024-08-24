@@ -2158,16 +2158,16 @@ var GL_Main = (function () {
           (e += "Developer | Designer | Photographer"))
         : 1 == this._id
         ? (this._dom.classList.add("top-state-2"),
-          (e += "<b>2024 - 2026</b><br>"),
+          (e += "<b>🎓 2024 - 2026</b><br>"),
           (e += "Bachelor's In Computer Science<br>"),
-          (e += "Ongoing Course from Coventry University (UK)<br class='sp-br'>"),
+          (e += "Ongoing Course from University of Wolverhampton <br class='sp-br'>"),
           (e += "Soon to be completed..."))
         : 2 == this._id &&
           (this._dom.classList.add("top-state-3"),
-          (e += "<b>2026-2027</b><br>"),
-          (e += "Masters in Cyber Security<br>"),
-          (e += "Course from Coventry University (UK)<br>"),
-          (e += "Will start.....")),
+          (e += "<b>2023-2024</b><br>"),
+          (e += "Cyber Security<br>"),
+          (e += "Completed from Google (Coursera)<br>"),
+          (e += "")),
         (this._dom.innerHTML = e),
         (this._sCount = 0),
         (this._sin = 0),
