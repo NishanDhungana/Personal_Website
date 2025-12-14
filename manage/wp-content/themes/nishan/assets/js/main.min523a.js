@@ -1,7 +1,7 @@
 var _glMain;
 window.onload = function () {
   "use strict";
-  (_glMain = new GL_Main()).init(), (window.unload = function () {});
+  (_glMain = new GL_Main()).init(), (window.onunload = function () {});
 };
 var GL_Main = (function () {
     "use strict";
